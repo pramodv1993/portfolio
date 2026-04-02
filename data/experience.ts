@@ -116,49 +116,49 @@ export const unifiedTimeline = [
   {
     type: "work",
     company: "Ordio",
-    role: "Senior AI Engineer (Founding Member)",
+    role: "Senior AI Engineer",
     period: "June 2025 – Present",
-    description: "Architected end-to-end AI agents with planning and tool-use capabilities for personnel management.",
-    tech: ["LangGraph", "LangChain", "FastAPI", "AWS", "Terraform"]
+    description: "Architected end-to-end AI agents for workspace management. Developed features for automatic shift scheduling and employee-shift recommendations using optimizers and ML models.",
+    tech: ["LangGraph", "LangChain", "FastAPI", "AWS DynamoDB", "Terraform", "Model Context Protocol"]
   },
   {
     type: "work",
     company: "Dimension",
     role: "AI Engineer",
     period: "July 2024 – June 2025",
-    description: "Developed multi-agent collaboration frameworks and search/retrieval tasks. Built validation frameworks for LLM responses.",
-    tech: ["Qdrant", "VLLM", "NATS", "Python", "GCP"]
+    description: "Developed LLM APIs and multi-agent collaboration frameworks. Built a validation framework for LLM responses and performed API load testing using VLLM.",
+    tech: ["Qdrant", "VLLM", "NATS", "Python", "GCP", "Triton"]
   },
   {
     type: "work",
     company: "Hyde GmbH",
     role: "Senior AI Engineer",
     period: "June 2023 – July 2024",
-    description: "Built asynchronous ML/NLP pipelines and engineered extensible APIs for modular prompt management.",
-    tech: ["Python", "PyTorch", "SageMaker", "Redis", "Qdrant"]
+    description: "Built asynchronous ML/NLP pipelines for web scraping. Fine-tuned open-source LLMs on multi-GPU setups using DeepSpeed and FSDP frameworks.",
+    tech: ["Python", "PyTorch", "SageMaker", "DeepSpeed", "FSDP", "Redis"]
   },
   {
     type: "work",
     company: "Fraunhofer IAIS",
     role: "NLP Research Engineer",
     period: "Dec 2021 – May 2023",
-    description: "Developed GPT-3-based triple verbalization for Knowledge Graphs, reducing processing time by ~50%.",
-    tech: ["Python", "Knowledge Graphs", "Kubernetes", "PyTorch"]
+    description: "Contributed to OpenGPT-X, building AI models for the EU. Developed GPT-3-based triple verbalization for Knowledge Graphs and factual correctness QA systems.",
+    tech: ["Python", "Knowledge Graphs", "Kubernetes", "BART", "OpenGPT-X"]
   },
   {
     type: "edu",
     company: "University of Kaiserslautern",
     role: "M.Sc. Computer Science (Intelligent Systems)",
     period: "Oct 2018 – Nov 2021",
-    description: "Specialized in Intelligent Systems with a focus on Deep Learning and NLP.",
-    tech: ["GPA: 1.7", "Germany"]
+    description: "Focused on Intelligent Systems. Completed research on Knowledge Graph construction (Know Your Text) and Responsible AI for news recommender systems.",
+    tech: ["GPA: 1.7", "Germany", "RDF", "Entity Disambiguation"]
   },
   {
     type: "work",
     company: "Sprinklr",
     role: "Senior Product Engineer",
     period: "July 2015 – Aug 2018",
-    description: "Prototyped a data enrichment system boosting lead collection efficiency by ~4x.",
+    description: "Prototyped a data enrichment system boosting lead collection efficiency by 4x. Led major migration of legacy Perl scripts to scalable class models.",
     tech: ["Java", "Spring MVC", "MongoDB", "ElasticSearch"]
   }
 ];

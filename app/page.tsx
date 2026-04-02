@@ -25,7 +25,7 @@ export default function Home() {
         <h1 className="text-7xl font-extrabold mb-4 tracking-tighter">{portfolioData.name}</h1>
         <h2 className="text-3xl text-blue-400 font-medium tracking-tight mb-8">{portfolioData.role}</h2>
         <p className="text-xl text-gray-400 leading-relaxed italic max-w-2xl">
-          "{portfolioData.summary}"
+          {portfolioData.summary}
         </p>
       </section>
 
@@ -72,7 +72,7 @@ export default function Home() {
               onClick={() => setIsModalOpen(false)}
               className="absolute top-6 right-6 text-gray-500 hover:text-white font-mono"
             >
-              [esc]
+              [X]
             </button>
             
             <h3 className="text-xs uppercase tracking-[0.4em] text-gray-500 font-bold mb-10">Published Research</h3>
